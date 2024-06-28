@@ -1,0 +1,83 @@
+@import "../SASS/index.scss";
+
+.sidebar-background{
+  background-color: $sidebar-background !important;
+  color: $sidebar-light-font;
+  font-weight: light;
+  box-shadow: 3px 6px 74px -3px  rgba(75, 6, 141.75);
+-webkit-box-shadow: 3px 6px 74px -3px rgba(75, 6, 141.75);
+-moz-box-shadow: 3px 6px 74px -3px rgba(75, 6, 141.75);
+
+  .label-administrator{
+    color: $sidebar-light-font !important;
+  }
+
+  .profile-photo{
+    height: 120px;
+    border-radius: 50% !important;
+  }
+
+}
+.center-modal{
+  position: relative;
+  display: flex;
+}
+
+.modal-styles{
+  color: $sidebar-light-font;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #010101de;
+  filter: blur(10%);
+  box-shadow: rgba(75, 6, 141, 0.2) 0 -25px 18px -14px inset,rgba(75, 6, 141, .15) 0 1px 2px,rgba(75, 6, 141, .15) 0 2px 4px,rgba(75, 6, 141, .15) 0 4px 8px,rgba(75, 6, 141, .15) 0 8px 16px,rgba(75, 6, 141, .15) 0 16px 32px;
+  // -webkit-filter: blur(2px);
+  // -moz-filter: blur(2px);
+  // -o-filter: blur(2px);
+  // -ms-filter: blur(2px);
+  // filter: blur(2px);
+
+  .close-icon{
+    display: block;
+    margin-left: auto;
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  .styled-button{
+    font-size: 12px;
+    width: 100%;
+    background-color: #3b346c !important;
+    color: #ffffff !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+}
+
+.title-modal-section{
+  font-size: 18px !important;
+}
+
+.modal-add-user{
+  font-size: 12px;
+  width: 350px !important;
+  height: auto;
+}
+
+#edad-input{
+  width: 70px !important;
+}
+
+
+.navbar-background{
+  background-color: $navbar-background !important;
+  height: 90px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  .title-section{
+    font-weight: 300;
+  }
+}

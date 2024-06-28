@@ -1,0 +1,64 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+$sidebar-background: #010100;
+$main-background: #010100;
+$navbar-background: #010100;
+$sidebar-light-font: #ffffff;
+$main-font: "Montserrat", sans-serif;
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none !important;
+  outline: none !important;
+}
+
+
+body{
+  font-family: $main-font;
+}
+
+input{
+  background-color: rgba(255, 255, 255, 0.397) !important;
+  outline: none !important;
+  color: $sidebar-light-font !important;
+  font-size: 12px !important;
+}
+
+table{
+  max-height:300px !important;
+  overflow-y:scroll !important;
+
+  thead{
+    font-weight: bold !important;
+  }
+  .transparent-thead{
+    background-color: transparent !important;
+  }
+  ul, td{
+    padding: 0.5rem !important;
+  }
+
+  thead{
+    font-size: 14px;
+  }
+  font-size: 12px;
+}
+
+.container-table{
+  padding: 2rem;
+}
+
+.hide{
+  display: none;
+}
+
+.table-styles{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.icon{
+  height: 20px;
+  cursor: pointer;
+}

@@ -1,12 +1,10 @@
-import './App.css';
-import UseCrud from "./components/CRUD/UseCrud"
+import './App.scss';
+import Sidebar from './components/Layout/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      {/* <Header />
-      <Contador/> */}
-      <UseCrud/>
+      <Sidebar/>
     </div>
   );
 }
